@@ -6,8 +6,9 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Funcionalidades del Proyecto](#3-funcionalidades-del-proyecto)
 * [4. Consideraciones técnicas](#4-consideraciones-técnicas)
-* [5. Diseño de la API](#5-diseño-de-la-api)
-* [6. Documentación Oficial](#6-documentación-oficial)
+* [5. Historias de usuario](#5-historias-de-usuario)
+* [6. Diseño de la API](#6-diseño-de-la-api)
+* [7. Documentación Oficial](#7-documentación-oficial)
 
 ***
 
@@ -131,10 +132,73 @@ Para realizar estas pruebas se declararon algunas constantes con fragmentos de l
 
 Las pruebas unitarias consisten en una comparación entre lo que se recibe y lo que se espera de una función.
 
+## 5. Historias de usuario
 
-## 5. Diseño de la API 
+### Historia de usuario número 1 "VISUALIZAR DATA":
 
-Primero se llevó a cabo una investigación sobre los usuarios a partir de los hallazgos otorgados. Con esta información en mente se realizaron bocetos de las funcionalidades de la interfaz, mismas que fueron aterrizadas en cuatro historias de usuario que después fueron reunidas en un prototipo de alta fidelidad, donde se aplicaron los fundamentos del visual design con los colores del logotipo de juegos olímpicos. 
+yo como aficionado sudamericano  al deporte interesado por los medallistas olímpicos
+
+quiero visualizar la información deportiva de los juegos olímpicos de Rio de Janeiro
+
+para conocer los datos específicos de los atletas sudamericanos.
+
+#### Criterios de aceptación:
+
+La aplicación le permite al usuario visualizar los datos (nombre, país, deporte, estatura, peso, etc) de todos los medallistas de Río de Janeiro 2016.
+
+### Historia de usuario número 2 "FILTRAR DATA":
+
+yo como aficionado sudamericano  al deporte interesado por los medallistas olímpicos
+
+quiero filtrar los datos del evento deportivo
+
+para conocer los datos de los atletas que más me interesan, osea los de mi región.
+
+#### Criterios de aceptación:
+
+La aplicación retorna la data seleccionada que cumple con la condición de la data recibida.
+
+### Historia de usuario número 3 "ORDENAR DATA":
+
+yo como aficionado sudamericano  al deporte interesado por los medallistas olímpicos
+
+quiero ordenar la base datos para conocer obtener los datos de edad, altura, peso de forma ascendente y descendente.
+
+#### Criterios de aceptación:
+
+La aplicación entrega la data, muestra el campo que se quiere ordenar, e indica si se ordena de forma ascendente o descendente.
+
+### Historia de usuario número 4 "CÁLCULO AGREGADO":
+
+yo como aficionado al deporte
+
+quiero realizar cálculos sobre el número de medallas ganadas en cada país.
+
+para conocer a los países que tuvieron atletas con mejor desempeño.
+
+Criterios de aceptación:
+
+·        hacer cálculos estadísticos sobre la data seleccionada.
+
+
+### Definition of Done
+
+Todas las historias de usuario contiene la misma "definition of Done" que se compone por los siguientes criterios:
+
+* Usabilidad, funcionalidad de la app de forma responsive.
+
+* El producto sigue los estándares de calidad de diseño visual.
+
+* El README se encuentra documentado.
+
+* Se realiza commit en github.
+
+* Se ha solicitado Feedback a usuarios.
+
+
+## 6. Diseño de la API 
+
+Primero se llevó a cabo una investigación sobre los usuarios a partir de los hallazgos otorgados. Con esta información en mente se realizaron bocetos de las funcionalidades de la interfaz, mismas que fueron aterrizadas en las cuatro historias de usuario del apartado anterior; las historias después fueron reunidas en un [prototipo de alta fidelidad](https://www.figma.com/file/t8CW3APCJrWdXy0C1RuKPW/Proyecto2-(Community)?type=design&node-id=0-1&mode=design&t=zCfQDocIG0uOUzM4-0) desarrollado en "Figma", donde se aplicaron los fundamentos del visual design con los colores del logotipo de juegos olímpicos. 
 
 Se aplicó un test de usabilidad al prototipo de alta fidelidad y el feedback recibido fue resuelto en el código; al final de la realizacion del proyecto se volvió a hacer otro test de usabilidad en el que se comprobó el funcionamiento de la aplicación.
 
@@ -152,7 +216,7 @@ Aquí se muestran las iteraciones de cada prototipo:
 
 
 
-## 6. Documentación Oficial 
+## 7. Documentación Oficial 
 * HTML semántico:
 https://curriculum.laboratoria.la/es/topics/html/html5/semantic-html
 
